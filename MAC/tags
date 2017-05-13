@@ -1,0 +1,402 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CRC_WIDTH	rtl/mac/crc/crc.v	/^    parameter CRC_WIDTH     = 5,$/;"	c
+CRC_WIDTH	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^    parameter CRC_WIDTH     = 32,$/;"	c
+CRC_WIDTH	rtl/mac/crc/tb/crc_tb_ETHERNET_1.v	/^    parameter CRC_WIDTH     = 32,$/;"	c
+CRC_WIDTH	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^    parameter CRC_WIDTH     = 32,$/;"	c
+CRC_WIDTH	rtl/mac/crc/tb/crc_tb_USB.v	/^    parameter CRC_WIDTH     = 5,$/;"	c
+DATA_IN_WIDTH	rtl/mac/mac_fifo/fifo/fifo.v	/^    parameter DATA_IN_WIDTH = 8,$/;"	c
+DATA_IN_WIDTH	rtl/mac/mac_fifo/mac_fifo.v	/^    parameter DATA_IN_WIDTH = 32,$/;"	c
+DEBUG	rtl/mac/crc/crc.v	/^    parameter DEBUG         = 0,$/;"	c
+DEBUG	rtl/mac/utilities/utilities.v	/^    parameter DEBUG     = 0$/;"	c
+FIFO_DEPTH	rtl/mac/mac_fifo/fifo/fifo.v	/^    parameter FIFO_DEPTH = 12$/;"	c
+FIFO_DEPTH	rtl/mac/mac_fifo/mac_fifo.v	/^    parameter FIFO_DEPTH = 12$/;"	c
+IN_WIDTH	rtl/mac/utilities/utilities.v	/^    parameter IN_WIDTH  = 8,$/;"	c
+IN_WIDTH	tb/mac/mac_fifo/fifo/fifo_tb.v	/^parameter IN_WIDTH = 32;$/;"	c
+IN_WIDTH	tb/mac/mac_fifo/mac_fifo_tb.v	/^parameter IN_WIDTH = 32;$/;"	c
+IN_WIDTH	tb/mac/mac_fifo/mac_fifo_tb2.v	/^parameter IN_WIDTH = 8;$/;"	c
+OUT_WIDTH	tb/mac/mac_fifo/fifo/fifo_tb.v	/^parameter OUT_WIDTH = 4;$/;"	c
+OUT_WIDTH	tb/mac/mac_fifo/mac_fifo_tb.v	/^parameter OUT_WIDTH = 8;$/;"	c
+OUT_WIDTH	tb/mac/mac_fifo/mac_fifo_tb2.v	/^parameter OUT_WIDTH = 32;$/;"	c
+POLYNOMIAL	rtl/mac/crc/crc.v	/^    parameter POLYNOMIAL    = 5'b00101,$/;"	c
+POLYNOMIAL	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^    parameter POLYNOMIAL    = 32'h04C11DB7,$/;"	c
+POLYNOMIAL	rtl/mac/crc/tb/crc_tb_ETHERNET_1.v	/^    parameter POLYNOMIAL    = 32'h04C11DB7,$/;"	c
+POLYNOMIAL	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^    parameter POLYNOMIAL    = 32'h04C11DB7,$/;"	c
+POLYNOMIAL	rtl/mac/crc/tb/crc_tb_USB.v	/^    parameter POLYNOMIAL    = 5'b00101,$/;"	c
+STATE_BACKOFF	rtl/mac/tx/tx_sm.v	/^    parameter STATE_BACKOFF     = 4'h8,$/;"	c
+STATE_DATA	rtl/mac/rx/rx_sm.v	/^    parameter       STATE_DATA          = 3'h2,$/;"	c
+STATE_DEFER	rtl/mac/tx/tx_sm.v	/^    parameter STATE_DEFER       = 4'h0,$/;"	c
+STATE_DROP	rtl/mac/rx/rx_sm.v	/^    parameter       STATE_DROP          = 3'h4,$/;"	c
+STATE_IDLE	rtl/mac/rx/rx_sm.v	/^    parameter       STATE_IDLE          = 3'h0,$/;"	c
+STATE_IDLE	rtl/mac/tx/tx_sm.v	/^    parameter STATE_IDLE        = 4'h2,$/;"	c
+STATE_JAM_DROP	rtl/mac/tx/tx_sm.v	/^    parameter STATE_JAM_DROP    = 4'hA,$/;"	c
+STATE_PAD	rtl/mac/tx/tx_sm.v	/^    parameter STATE_PAD         = 4'h6,$/;"	c
+STATE_SFD	rtl/mac/tx/tx_sm.v	/^    parameter STATE_SFD         = 4'h4,$/;"	c
+WIDTH	rtl/mac/utilities/monitor.v	/^    parameter WIDTH  = 8$/;"	c
+assert	rtl/mac/utilities/utilities.v	/^task assert;$/;"	t
+automatic	rtl/mac/crc/crc.v	/^function automatic prev;$/;"	f
+carrier_sense	rtl/mac/tx/tb/dut.v	/^reg         carrier_sense;$/;"	r
+carrier_sense	tb/mac/mac_tb.v	/^reg         carrier_sense;$/;"	r
+clock	rtl/mac/crc/tb/dut.v	/^reg                     clock;     $/;"	r
+clock	rtl/mac/rx/tb/dut.v	/^reg         clock;$/;"	r
+clock	rtl/mac/tx/tb/dut.v	/^reg         clock;$/;"	r
+collision	rtl/mac/tx/tb/dut.v	/^reg         collision;$/;"	r
+collision	tb/mac/mac_tb.v	/^reg         collision;$/;"	r
+condition	rtl/mac/utilities/utilities.v	/^    input condition;$/;"	p
+crc	rtl/mac/crc/crc.v	/^    input [CRC_WIDTH-1:0]   crc;$/;"	p
+crc	rtl/mac/crc/crc.v	/^module crc #($/;"	m
+crc	rtl/mac/rx/tb/mac_tb2.v	/^wire [31:0] crc;$/;"	n
+crc	tb/mac/mac_tb2.v	/^wire [31:0] crc;$/;"	n
+crc_enable	rtl/mac/tx/tx_sm.v	/^reg         crc_enable;$/;"	r
+crc_index	rtl/mac/tx/tx_sm.v	/^integer     crc_index;$/;"	r
+crc_init	rtl/mac/rx/rx_sm.v	/^reg        crc_init;$/;"	r
+crc_init	rtl/mac/tx/tx_sm.v	/^reg         crc_init;$/;"	r
+crc_out	rtl/mac/crc/tb/dut.v	/^wire [CRC_WIDTH-1:0]    crc_out;   $/;"	n
+crc_out	rtl/mac/rx/rx_sm.v	/^wire [31:0] crc_out;$/;"	n
+crc_out	rtl/mac/tx/tx_sm.v	/^wire [31:0] crc_out;$/;"	n
+crc_tb	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^module crc_tb #(   $/;"	m
+crc_tb	rtl/mac/crc/tb/crc_tb_ETHERNET_1.v	/^module crc_tb #(   $/;"	m
+crc_tb	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^module crc_tb #(   $/;"	m
+crc_tb	rtl/mac/crc/tb/crc_tb_USB.v	/^module crc_tb #(   $/;"	m
+data	rtl/mac/crc/crc.v	/^    input [DATA_WIDTH-1:0]      data,$/;"	p
+data	rtl/mac/crc/crc.v	/^    input [DATA_WIDTH-1:0]  data;$/;"	p
+data	rtl/mac/rx/tb/mac_tb2.v	/^    input [7:0] data;$/;"	p
+data	rtl/mac/rx/tb/mac_tb2.v	/^    output [31:0]  data;$/;"	p
+data	rtl/mac/utilities/utilities.v	/^    input [OUT_WIDTH-1:0] data;$/;"	p
+data	rtl/mac/utilities/utilities.v	/^    output [IN_WIDTH-1:0]  data;$/;"	p
+data	tb/mac/mac_fifo/fifo/fifo_tb.v	/^    input[IN_WIDTH-1:0] data;$/;"	p
+data	tb/mac/mac_fifo/fifo/fifo_tb.v	/^    output [OUT_WIDTH-1:0] data;$/;"	p
+data	tb/mac/mac_fifo/mac_fifo_tb.v	/^    input[IN_WIDTH-1:0] data;$/;"	p
+data	tb/mac/mac_fifo/mac_fifo_tb.v	/^    output [OUT_WIDTH-1:0]  data;$/;"	p
+data	tb/mac/mac_fifo/mac_fifo_tb2.v	/^    input[IN_WIDTH-1:0] data;$/;"	p
+data	tb/mac/mac_fifo/mac_fifo_tb2.v	/^    output [OUT_WIDTH-1:0] data;$/;"	p
+data	tb/mac/mac_tb.v	/^    input[31:0] data;$/;"	p
+data	tb/mac/mac_tb2.v	/^    input [7:0] data;$/;"	p
+data	tb/mac/mac_tb2.v	/^    output [31:0]  data;$/;"	p
+data_enable	rtl/mac/rx/rx_sm.v	/^reg        data_enable;$/;"	r
+data_end	tb/mac/mac_fifo/mac_fifo_tb.v	/^    input               data_end;$/;"	p
+data_end	tb/mac/mac_fifo/mac_fifo_tb2.v	/^    input               data_end;$/;"	p
+data_end	tb/mac/mac_tb.v	/^    input               data_end;$/;"	p
+data_error	rtl/mac/rx/tb/mac_tb2.v	/^    input       data_error;$/;"	p
+data_error	tb/mac/mac_tb2.v	/^    input       data_error;$/;"	p
+data_in	rtl/mac/crc/tb/dut.v	/^wire  [DATA_WIDTH-1:0]   data_in;$/;"	n
+data_in	tb/mac/mac_fifo/fifo/fifo_tb.v	/^reg     [IN_WIDTH-1:0]  data_in;$/;"	r
+data_in	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg     [IN_WIDTH-1:0]  data_in;$/;"	r
+data_in	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg     [IN_WIDTH-1:0]  data_in;$/;"	r
+data_in	tb/mac/mac_tb.v	/^reg [31:0]  data_in;$/;"	r
+data_in_address	rtl/mac/mac_fifo/mac_fifo.v	/^        wire [FIFO_DEPTH-1:0]                                           data_in_address;$/;"	n
+data_in_address_tmp	rtl/mac/mac_fifo/mac_fifo.v	/^        reg  [FIFO_DEPTH-1:0]                                           data_in_address_tmp;$/;"	r
+data_in_clock	tb/mac/mac_fifo/fifo/fifo_tb.v	/^reg                     data_in_clock;$/;"	r
+data_in_clock	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg                     data_in_clock;$/;"	r
+data_in_clock	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     data_in_clock;$/;"	r
+data_in_clock	tb/mac/mac_tb.v	/^reg         data_in_clock;$/;"	r
+data_in_enable	rtl/mac/crc/tb/dut.v	/^wire                     data_in_enable;$/;"	n
+data_in_enable	tb/mac/mac_fifo/fifo/fifo_tb.v	/^reg                     data_in_enable;$/;"	r
+data_in_enable	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg                     data_in_enable;$/;"	r
+data_in_enable	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     data_in_enable;$/;"	r
+data_in_enable	tb/mac/mac_tb.v	/^reg         data_in_enable;$/;"	r
+data_in_end	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg                     data_in_end;$/;"	r
+data_in_end	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     data_in_end;$/;"	r
+data_in_end	tb/mac/mac_tb.v	/^reg         data_in_end;$/;"	r
+data_in_start	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg                     data_in_start;$/;"	r
+data_in_start	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     data_in_start;$/;"	r
+data_in_start	tb/mac/mac_tb.v	/^reg         data_in_start;$/;"	r
+data_out	rtl/mac/rx/tb/mac_tb2.v	/^wire [31:0]  data_out;$/;"	n
+data_out	tb/mac/mac_fifo/fifo/fifo_tb.v	/^wire    [OUT_WIDTH-1:0] data_out;$/;"	n
+data_out	tb/mac/mac_fifo/mac_fifo_tb.v	/^wire    [OUT_WIDTH-1:0] data_out;$/;"	n
+data_out	tb/mac/mac_fifo/mac_fifo_tb2.v	/^wire    [OUT_WIDTH-1:0] data_out;$/;"	n
+data_out	tb/mac/mac_tb2.v	/^wire [31:0]  data_out;$/;"	n
+data_out_address	rtl/mac/mac_fifo/mac_fifo.v	/^        wire [FIFO_DEPTH-1:0]                                           data_out_address;$/;"	n
+data_out_address_tmp	rtl/mac/mac_fifo/mac_fifo.v	/^        reg  [FIFO_DEPTH-1:0]                                           data_out_address_tmp;$/;"	r
+data_out_clock	rtl/mac/rx/tb/mac_tb2.v	/^reg          data_out_clock;$/;"	r
+data_out_clock	tb/mac/mac_fifo/fifo/fifo_tb.v	/^reg                     data_out_clock;$/;"	r
+data_out_clock	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg                     data_out_clock;$/;"	r
+data_out_clock	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     data_out_clock;$/;"	r
+data_out_clock	tb/mac/mac_tb2.v	/^reg          data_out_clock;$/;"	r
+data_out_enable	rtl/mac/rx/tb/mac_tb2.v	/^reg          data_out_enable;$/;"	r
+data_out_enable	tb/mac/mac_fifo/fifo/fifo_tb.v	/^reg                     data_out_enable;$/;"	r
+data_out_enable	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg                     data_out_enable;$/;"	r
+data_out_enable	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     data_out_enable;$/;"	r
+data_out_enable	tb/mac/mac_tb2.v	/^reg          data_out_enable;$/;"	r
+data_out_end	rtl/mac/rx/tb/mac_tb2.v	/^wire         data_out_end;$/;"	n
+data_out_end	tb/mac/mac_fifo/mac_fifo_tb.v	/^wire                    data_out_end;$/;"	n
+data_out_end	tb/mac/mac_fifo/mac_fifo_tb2.v	/^wire                    data_out_end;$/;"	n
+data_out_end	tb/mac/mac_tb2.v	/^wire         data_out_end;$/;"	n
+data_out_end_tmp	rtl/mac/mac_fifo/mac_fifo.v	/^        wire [(DATA_OUT_WIDTH\/DATA_IN_WIDTH)-1:0]                       data_out_end_tmp;$/;"	n
+data_out_start	rtl/mac/rx/tb/mac_tb2.v	/^wire         data_out_start;$/;"	n
+data_out_start	tb/mac/mac_fifo/mac_fifo_tb.v	/^wire                    data_out_start;$/;"	n
+data_out_start	tb/mac/mac_fifo/mac_fifo_tb2.v	/^wire                    data_out_start;$/;"	n
+data_out_start	tb/mac/mac_tb2.v	/^wire         data_out_start;$/;"	n
+data_out_start_tmp	rtl/mac/mac_fifo/mac_fifo.v	/^        wire [(DATA_OUT_WIDTH\/DATA_IN_WIDTH)-1:0]                       data_out_start_tmp;$/;"	n
+data_start	tb/mac/mac_fifo/mac_fifo_tb.v	/^    input               data_start;$/;"	p
+data_start	tb/mac/mac_fifo/mac_fifo_tb2.v	/^    input               data_start;$/;"	p
+data_start	tb/mac/mac_tb.v	/^    input               data_start;$/;"	p
+data_valid	rtl/mac/rx/tb/mac_tb2.v	/^    input       data_valid;$/;"	p
+data_valid	tb/mac/mac_tb2.v	/^    input       data_valid;$/;"	p
+error	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     error;$/;"	r
+expected_fifo_data_write	rtl/mac/rx/tb/dut.v	/^reg         expected_fifo_data_write;$/;"	r
+expected_tx_enable	rtl/mac/tx/tb/dut.v	/^reg         expected_tx_enable;$/;"	r
+fails	rtl/mac/utilities/utilities.v	/^integer fails;$/;"	r
+fifo	rtl/mac/mac_fifo/fifo/fifo.v	/^module fifo $/;"	m
+fifo_count	rtl/mac/tx/tb/dut.v	/^reg  [6:0]  fifo_count;$/;"	r
+fifo_data	rtl/mac/rx/tb/dut.v	/^wire [7:0]  fifo_data;$/;"	n
+fifo_data	rtl/mac/tx/tb/dut.v	/^wire [7:0]  fifo_data;$/;"	n
+fifo_data_end	rtl/mac/rx/tb/dut.v	/^wire        fifo_data_end;$/;"	n
+fifo_data_end	rtl/mac/tx/tb/dut.v	/^wire        fifo_data_end;$/;"	n
+fifo_data_in	rtl/mac/mac_fifo/mac_fifo.v	/^        wire [(DATA_IN_WIDTH-1)+(2*(DATA_IN_WIDTH\/DATA_OUT_WIDTH)):0]   fifo_data_in;$/;"	n
+fifo_data_in	rtl/mac/mac_fifo/mac_fifo.v	/^        wire [DATA_IN_WIDTH + 1:0]                                      fifo_data_in;$/;"	n
+fifo_data_out	rtl/mac/mac_fifo/mac_fifo.v	/^        wire [(DATA_OUT_WIDTH-1)+(2*(DATA_OUT_WIDTH\/DATA_IN_WIDTH)):0]  fifo_data_out;$/;"	n
+fifo_data_out	rtl/mac/mac_fifo/mac_fifo.v	/^        wire [DATA_OUT_WIDTH + 1:0]                                     fifo_data_out;$/;"	n
+fifo_data_read	rtl/mac/tx/tb/dut.v	/^wire        fifo_data_read;$/;"	n
+fifo_data_start	rtl/mac/rx/tb/dut.v	/^wire        fifo_data_start;$/;"	n
+fifo_data_start	rtl/mac/tx/tb/dut.v	/^wire        fifo_data_start;$/;"	n
+fifo_data_write	rtl/mac/rx/tb/dut.v	/^wire        fifo_data_write;$/;"	n
+fifo_error	rtl/mac/rx/tb/dut.v	/^wire        fifo_error;$/;"	n
+fifo_full	rtl/mac/rx/rx_sm.v	/^    input           fifo_full$/;"	p
+fifo_full	rtl/mac/rx/tb/dut.v	/^reg         fifo_full;$/;"	r
+fifo_retry	rtl/mac/tx/tb/dut.v	/^wire        fifo_retry;$/;"	n
+fifo_test	tb/mac/mac_fifo/fifo/fifo_tb.v	/^module fifo_test();$/;"	m
+frame_count	rtl/mac/rx/tb/mac_tb2.v	/^wire [6:0]   frame_count;$/;"	n
+frame_count	tb/mac/mac_tb2.v	/^wire [6:0]   frame_count;$/;"	n
+frame_error	tb/mac/mac_fifo/mac_fifo_tb2.v	/^    input               frame_error;$/;"	p
+frame_length_count	rtl/mac/tx/tx_sm.v	/^reg [7:0] frame_length_count;$/;"	r
+frame_length_counter	rtl/mac/rx/rx_sm.v	/^reg [15:0] frame_length_counter;$/;"	r
+frame_retry	tb/mac/mac_fifo/mac_fifo_tb.v	/^    input                   frame_retry;$/;"	p
+i	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^integer i;$/;"	r
+i	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^integer i;$/;"	r
+i	rtl/mac/rx/tb/mac_tb2.v	/^integer i;$/;"	r
+i	rtl/mac/rx/tb/rx_sm_tb.v	/^integer i;$/;"	r
+i	rtl/mac/tx/tb/tx_sm_full_duplex_tb.v	/^integer i;$/;"	r
+i	rtl/mac/tx/tb/tx_sm_half_duplex_tb.v	/^integer i;$/;"	r
+i	tb/mac/mac_fifo/fifo/fifo_tb.v	/^integer i;$/;"	r
+i	tb/mac/mac_fifo/mac_fifo_tb.v	/^integer i;$/;"	r
+i	tb/mac/mac_fifo/mac_fifo_tb2.v	/^integer i;$/;"	r
+i	tb/mac/mac_tb.v	/^integer     i;$/;"	r
+i	tb/mac/mac_tb2.v	/^integer i;$/;"	r
+index	rtl/mac/mac_fifo/fifo/fifo.v	/^integer                     index;$/;"	r
+init	rtl/mac/crc/crc.v	/^    input                       init,$/;"	p
+init	rtl/mac/tx/random.v	/^    input           init,$/;"	p
+input	rtl/mac/crc/crc.v	/^    input                       clock,$/;"	p
+input	rtl/mac/crc/crc.v	/^    input                       data_enable,$/;"	p
+input	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire    [DATA_IN_WIDTH-1:0]     data_in,$/;"	c
+input	rtl/mac/rx/rx_sm.v	/^    input           clock,$/;"	p
+input	rtl/mac/rx/rx_sm.v	/^    input   [7:0]   rx_data,$/;"	p
+input	rtl/mac/tx/random.v	/^    input           clock,$/;"	p
+input	rtl/mac/tx/random.v	/^    input   [3:0]   retry_count,$/;"	p
+input	rtl/mac/utilities/monitor.v	/^    input  wire               expected,$/;"	c
+integer	rtl/mac/crc/crc.v	/^    input integer index;$/;"	p
+integer	rtl/mac/crc/crc.v	/^    input integer level;$/;"	p
+inter_frame_gap_count	rtl/mac/tx/tx_sm.v	/^reg [3:0] inter_frame_gap_count;$/;"	r
+j	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^integer j;$/;"	r
+j	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^integer j;$/;"	r
+jam_length_count	rtl/mac/tx/tx_sm.v	/^reg [4:0] jam_length_count;$/;"	r
+mac	rtl/mac/mac.v	/^module mac($/;"	m
+mac_fifo	rtl/mac/mac_fifo/mac_fifo.v	/^module mac_fifo #($/;"	m
+mac_fifo_test	tb/mac/mac_fifo/mac_fifo_tb.v	/^module mac_fifo_test();$/;"	m
+mac_fifo_test	tb/mac/mac_fifo/mac_fifo_tb2.v	/^module mac_fifo_test();$/;"	m
+mac_test	rtl/mac/rx/tb/mac_tb2.v	/^module mac_test();$/;"	m
+mac_test	tb/mac/mac_tb.v	/^module mac_test();$/;"	m
+mac_test	tb/mac/mac_tb2.v	/^module mac_test();$/;"	m
+mem	rtl/mac/mac_fifo/fifo/fifo.v	/^        reg     [DATA_IN_WIDTH-1:0] mem[(2**FIFO_DEPTH)-1:0];$/;"	r
+mem	rtl/mac/mac_fifo/fifo/fifo.v	/^        reg     [DATA_OUT_WIDTH-1:0] mem[(2**FIFO_DEPTH)-1:0];$/;"	r
+message	rtl/mac/utilities/utilities.v	/^    input [100*8:0] message;$/;"	p
+mode	rtl/mac/tx/tb/dut.v	/^reg         mode;$/;"	r
+monitor	rtl/mac/utilities/monitor.v	/^module monitor #($/;"	m
+next_state	rtl/mac/rx/rx_sm.v	/^reg [2:0]  next_state;$/;"	r
+next_state	rtl/mac/tx/tx_sm.v	/^reg [3:0] next_state;$/;"	r
+output	rtl/mac/mac_fifo/fifo/fifo.v	/^    output  reg                             count,$/;"	c
+output	rtl/mac/rx/rx_sm.v	/^    output  [7:0]   fifo_data,$/;"	p
+output	rtl/mac/utilities/utilities.v	/^    output reg                   data_out_enable,$/;"	c
+packet	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^reg  [7:0]  packet [0:91];   $/;"	r
+packet	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^reg  [7:0]  packet [0:95];   $/;"	r
+packet	rtl/mac/rx/tb/mac_tb2.v	/^reg  [7:0]  packet [0:1518];   $/;"	r
+packet	rtl/mac/rx/tb/rx_sm_tb.v	/^reg  [7:0]  packet [0:1518];   $/;"	r
+packet	tb/mac/mac_tb.v	/^reg   [31:0]  packet [0:380];   $/;"	r
+packet	tb/mac/mac_tb2.v	/^reg  [7:0]  packet [0:1518];   $/;"	r
+padding_length_count	rtl/mac/tx/tx_sm.v	/^reg [5:0] padding_length_count;$/;"	r
+parameter	rtl/mac/crc/crc.v	/^    parameter DATA_WIDTH    = 8,$/;"	c
+parameter	rtl/mac/crc/crc.v	/^    parameter REVERSE       = 1$/;"	c
+parameter	rtl/mac/crc/crc.v	/^    parameter SEED          = 0,$/;"	c
+parameter	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^    parameter DATA_WIDTH    = 8,$/;"	c
+parameter	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^    parameter SEED          = 32'hFFFFFFFF$/;"	c
+parameter	rtl/mac/crc/tb/crc_tb_ETHERNET_1.v	/^    parameter DATA_WIDTH    = 8,$/;"	c
+parameter	rtl/mac/crc/tb/crc_tb_ETHERNET_1.v	/^    parameter SEED          = 32'h00000000$/;"	c
+parameter	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^    parameter DATA_WIDTH    = 8,$/;"	c
+parameter	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^    parameter SEED          = 32'hFFFFFFFF$/;"	c
+parameter	rtl/mac/crc/tb/crc_tb_USB.v	/^    parameter DATA_WIDTH    = 8,$/;"	c
+parameter	rtl/mac/crc/tb/crc_tb_USB.v	/^    parameter SEED          = 0$/;"	c
+parameter	rtl/mac/mac_fifo/fifo/fifo.v	/^    parameter DATA_OUT_WIDTH = 8,    $/;"	c
+parameter	rtl/mac/mac_fifo/mac_fifo.v	/^    parameter DATA_OUT_WIDTH = 8,$/;"	c
+parameter	rtl/mac/rx/rx_sm.v	/^    parameter       STATE_ERROR         = 3'h5$/;"	c
+parameter	rtl/mac/rx/rx_sm.v	/^    parameter       STATE_OK            = 3'h3,$/;"	c
+parameter	rtl/mac/rx/rx_sm.v	/^    parameter       STATE_PREAMBLE      = 3'h1,$/;"	c
+parameter	rtl/mac/tx/tx_sm.v	/^    parameter STATE_DATA        = 4'h5,$/;"	c
+parameter	rtl/mac/tx/tx_sm.v	/^    parameter STATE_FCS         = 4'h9,$/;"	c
+parameter	rtl/mac/tx/tx_sm.v	/^    parameter STATE_IFG         = 4'h1,$/;"	c
+parameter	rtl/mac/tx/tx_sm.v	/^    parameter STATE_JAM         = 4'h7,$/;"	c
+parameter	rtl/mac/tx/tx_sm.v	/^    parameter STATE_NEXT        = 4'hB$/;"	c
+parameter	rtl/mac/tx/tx_sm.v	/^    parameter STATE_PREAMBLE    = 4'h3,$/;"	c
+parameter	rtl/mac/utilities/utilities.v	/^    parameter OUT_WIDTH = 8,$/;"	c
+passes	rtl/mac/utilities/utilities.v	/^integer passes;$/;"	r
+pop	rtl/mac/rx/tb/mac_tb2.v	/^task pop;$/;"	t
+pop	tb/mac/mac_fifo/fifo/fifo_tb.v	/^task pop;$/;"	t
+pop	tb/mac/mac_fifo/mac_fifo_tb.v	/^task pop;$/;"	t
+pop	tb/mac/mac_fifo/mac_fifo_tb2.v	/^task pop;$/;"	t
+pop	tb/mac/mac_tb2.v	/^task pop;$/;"	t
+preamble_count	rtl/mac/tx/tx_sm.v	/^reg [3:0] preamble_count;$/;"	r
+push	rtl/mac/rx/tb/mac_tb2.v	/^task push;$/;"	t
+push	tb/mac/mac_fifo/fifo/fifo_tb.v	/^task push;$/;"	t
+push	tb/mac/mac_fifo/mac_fifo_tb.v	/^task push;$/;"	t
+push	tb/mac/mac_fifo/mac_fifo_tb2.v	/^task push;$/;"	t
+push	tb/mac/mac_tb.v	/^task push;$/;"	t
+push	tb/mac/mac_tb2.v	/^task push;$/;"	t
+random	rtl/mac/tx/random.v	/^reg [9:0]       random;$/;"	r
+random_counter	rtl/mac/tx/random.v	/^reg [9:0]       random_counter;$/;"	r
+random_gen	rtl/mac/tx/random.v	/^module random_gen( $/;"	m
+random_init	rtl/mac/tx/tx_sm.v	/^reg  random_init;$/;"	r
+random_sequence	rtl/mac/tx/random.v	/^reg [9:0]       random_sequence;$/;"	r
+random_trigger	rtl/mac/tx/tx_sm.v	/^wire random_trigger;$/;"	n
+reg	rtl/mac/crc/crc.v	/^    output reg [CRC_WIDTH-1:0]  crc_out, $/;"	p
+reg	rtl/mac/mac_fifo/fifo/fifo.v	/^    output  reg     [DATA_OUT_WIDTH-1:0]    data_out,$/;"	p
+reg	rtl/mac/mac_fifo/fifo/fifo.v	/^    output  reg     [FIFO_DEPTH-1:0]        data_in_address,$/;"	p
+reg	rtl/mac/mac_fifo/fifo/fifo.v	/^    output  reg     [FIFO_DEPTH-1:0]        data_out_address,$/;"	p
+reg	rtl/mac/mac_fifo/mac_fifo.v	/^    output  reg     [FIFO_DEPTH-6:0]        frame_count$/;"	p
+reg	rtl/mac/rx/rx_sm.v	/^    output reg      fifo_data_end,$/;"	p
+reg	rtl/mac/rx/rx_sm.v	/^    output reg      fifo_data_start,$/;"	p
+reg	rtl/mac/rx/rx_sm.v	/^    output reg      fifo_data_write,$/;"	p
+reg	rtl/mac/rx/rx_sm.v	/^    output reg      fifo_error,$/;"	p
+reg	rtl/mac/tx/random.v	/^    output reg      trigger$/;"	p
+reg	rtl/mac/tx/tx_sm.v	/^    output  reg         fifo_data_read,$/;"	p
+reg	rtl/mac/tx/tx_sm.v	/^    output  reg         fifo_retry,$/;"	p
+reg	rtl/mac/tx/tx_sm.v	/^    output  reg         tx_enable,$/;"	p
+reg	rtl/mac/tx/tx_sm.v	/^    output  reg  [7:0]  tx_data$/;"	p
+reg	rtl/mac/utilities/utilities.v	/^    output reg                   data_in_enable,$/;"	p
+reset	rtl/mac/crc/crc.v	/^    input                       reset$/;"	p
+reset	rtl/mac/crc/tb/dut.v	/^reg                     reset;     $/;"	r
+reset	rtl/mac/rx/rx_sm.v	/^    input           reset,$/;"	p
+reset	rtl/mac/rx/tb/dut.v	/^reg         reset;$/;"	r
+reset	rtl/mac/rx/tb/mac_tb2.v	/^reg                     reset;$/;"	r
+reset	rtl/mac/tx/random.v	/^    input           reset,$/;"	p
+reset	rtl/mac/tx/tb/dut.v	/^reg         reset;$/;"	r
+reset	tb/mac/mac_fifo/fifo/fifo_tb.v	/^reg                     reset;$/;"	r
+reset	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg                     reset;$/;"	r
+reset	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     reset;$/;"	r
+reset	tb/mac/mac_tb.v	/^reg         reset;$/;"	r
+reset	tb/mac/mac_tb2.v	/^reg                     reset;$/;"	r
+retry	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg                     retry;$/;"	r
+retry	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg                     retry;$/;"	r
+retry_count	rtl/mac/tx/tx_sm.v	/^reg [3:0] retry_count;$/;"	r
+rx_clock	rtl/mac/rx/tb/mac_tb2.v	/^reg         rx_clock;$/;"	r
+rx_clock	tb/mac/mac_tb2.v	/^reg         rx_clock;$/;"	r
+rx_data	rtl/mac/rx/tb/dut.v	/^wire [7:0]  rx_data;$/;"	n
+rx_data	rtl/mac/rx/tb/mac_tb2.v	/^reg  [7:0]  rx_data;$/;"	r
+rx_data	tb/mac/mac_tb2.v	/^reg  [7:0]  rx_data;$/;"	r
+rx_data_valid	rtl/mac/rx/rx_sm.v	/^    input           rx_data_valid,$/;"	p
+rx_data_valid	rtl/mac/rx/tb/dut.v	/^wire        rx_data_valid;$/;"	n
+rx_data_valid	rtl/mac/rx/tb/mac_tb2.v	/^reg         rx_data_valid;$/;"	r
+rx_data_valid	tb/mac/mac_tb2.v	/^reg         rx_data_valid;$/;"	r
+rx_error	rtl/mac/rx/rx_sm.v	/^    input           rx_error,$/;"	p
+rx_error	rtl/mac/rx/tb/dut.v	/^reg         rx_error;$/;"	r
+rx_error	rtl/mac/rx/tb/mac_tb2.v	/^reg         rx_error;$/;"	r
+rx_error	tb/mac/mac_tb2.v	/^reg         rx_error;$/;"	r
+rx_fifo_data	rtl/mac/mac.v	/^    wire [7:0]  rx_fifo_data;$/;"	n
+rx_fifo_data_end	rtl/mac/mac.v	/^    wire        rx_fifo_data_end;$/;"	n
+rx_fifo_data_start	rtl/mac/mac.v	/^    wire        rx_fifo_data_start;$/;"	n
+rx_fifo_data_write	rtl/mac/mac.v	/^    wire        rx_fifo_data_write;$/;"	n
+rx_fifo_error	rtl/mac/mac.v	/^    wire        rx_fifo_error;$/;"	n
+rx_fifo_full	rtl/mac/mac.v	/^    wire        rx_fifo_full;$/;"	n
+rx_sm	rtl/mac/rx/rx_sm.v	/^module rx_sm #($/;"	m
+rx_sm_tb	rtl/mac/rx/tb/rx_sm_tb.v	/^module rx_sm_tb ();$/;"	m
+slot_time_counter	rtl/mac/tx/random.v	/^reg [7:0]       slot_time_counter; \/\/256*2=512bit=1 slot time$/;"	r
+state	rtl/mac/rx/rx_sm.v	/^reg [2:0]  state;$/;"	r
+state	rtl/mac/tx/tx_sm.v	/^reg [3:0] state;$/;"	r
+sync_assert	rtl/mac/utilities/utilities.v	/^task sync_assert;$/;"	t
+sync_read	rtl/mac/utilities/utilities.v	/^task sync_read;$/;"	t
+sync_write	rtl/mac/utilities/utilities.v	/^task sync_write;$/;"	t
+temp	rtl/mac/crc/crc.v	/^wire [DATA_WIDTH-1:0] temp;$/;"	n
+temp	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^reg [7:0]   temp;$/;"	r
+temp	rtl/mac/crc/tb/crc_tb_ETHERNET_2.v	/^reg [7:0]   temp;$/;"	r
+temp2	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^reg [31:0]   temp2;$/;"	r
+temp3	rtl/mac/crc/tb/crc_tb_ETHERNET_0.v	/^reg [31:0]   temp3;$/;"	r
+tempdata	rtl/mac/crc/tb/dut.v	/^reg  [CRC_WIDTH-1:0]    tempdata;$/;"	r
+tempdata	rtl/mac/rx/tb/dut.v	/^reg  [7:0]  tempdata;$/;"	r
+tempdata	rtl/mac/rx/tb/mac_tb2.v	/^reg  [31:0] tempdata;    $/;"	r
+tempdata	rtl/mac/tx/tb/dut.v	/^reg  [7:0]  tempdata;$/;"	r
+tempdata	tb/mac/mac_fifo/fifo/fifo_tb.v	/^reg     [OUT_WIDTH-1:0]    tempdata;$/;"	r
+tempdata	tb/mac/mac_fifo/mac_fifo_tb.v	/^reg     [OUT_WIDTH-1:0]    tempdata;$/;"	r
+tempdata	tb/mac/mac_fifo/mac_fifo_tb2.v	/^reg     [OUT_WIDTH-1:0] tempdata;$/;"	r
+tempdata	tb/mac/mac_tb2.v	/^reg  [31:0] tempdata;    $/;"	r
+too_long	rtl/mac/rx/rx_sm.v	/^reg        too_long;$/;"	r
+too_short	rtl/mac/rx/rx_sm.v	/^reg        too_short;$/;"	r
+tx_clock	tb/mac/mac_tb.v	/^reg         tx_clock;$/;"	r
+tx_data	rtl/mac/tx/tb/dut.v	/^wire [7:0]  tx_data;$/;"	n
+tx_data	tb/mac/mac_tb.v	/^wire  [7:0] tx_data;$/;"	n
+tx_enable	rtl/mac/tx/tb/dut.v	/^wire        tx_enable;$/;"	n
+tx_enable	tb/mac/mac_tb.v	/^wire        tx_enable;$/;"	n
+tx_fifo_count	rtl/mac/mac.v	/^    wire [6:0]  tx_fifo_count;$/;"	n
+tx_fifo_data	rtl/mac/mac.v	/^    wire [7:0]  tx_fifo_data;$/;"	n
+tx_fifo_data_end	rtl/mac/mac.v	/^    wire        tx_fifo_data_end;$/;"	n
+tx_fifo_data_read	rtl/mac/mac.v	/^    wire        tx_fifo_data_read;$/;"	n
+tx_fifo_data_start	rtl/mac/mac.v	/^    wire        tx_fifo_data_start;$/;"	n
+tx_fifo_retry	rtl/mac/mac.v	/^    wire        tx_fifo_retry;$/;"	n
+tx_sm	rtl/mac/tx/tx_sm.v	/^module tx_sm #($/;"	m
+tx_sm_tb	rtl/mac/tx/tb/tx_sm_full_duplex_tb.v	/^module tx_sm_tb ();$/;"	m
+tx_sm_tb	rtl/mac/tx/tb/tx_sm_half_duplex_tb.v	/^module tx_sm_tb ();$/;"	m
+utilities	rtl/mac/utilities/utilities.v	/^module utilities #($/;"	m
+wire	rtl/mac/mac.v	/^    input   wire        carrier_sense,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        collision,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        data_in_clock,     $/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        data_in_enable,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        data_in_end,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        data_in_start,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        data_out_clock,     $/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        data_out_enable,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        reset,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        rx_clock,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        rx_data_valid,       $/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        rx_error$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire        tx_clock,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire [31:0] data_in,$/;"	p
+wire	rtl/mac/mac.v	/^    input   wire [7:0]  rx_data,         $/;"	p
+wire	rtl/mac/mac.v	/^    output  wire        data_out_end,$/;"	p
+wire	rtl/mac/mac.v	/^    output  wire        data_out_start,$/;"	p
+wire	rtl/mac/mac.v	/^    output  wire        tx_enable,$/;"	p
+wire	rtl/mac/mac.v	/^    output  wire [31:0] data_out,$/;"	p
+wire	rtl/mac/mac.v	/^    output  wire [6:0]  frame_count,$/;"	p
+wire	rtl/mac/mac.v	/^    output  wire [7:0]  tx_data,$/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire                            data_in_clock,     $/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire                            data_in_enable,$/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire                            data_in_reset,$/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire                            data_out_clock,     $/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire                            data_out_enable,$/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire                            data_out_reset,$/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire    [DATA_IN_WIDTH-1:0]     data_in,$/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire    [FIFO_DEPTH-1:0]        data_in_reset_address,$/;"	p
+wire	rtl/mac/mac_fifo/fifo/fifo.v	/^    input   wire    [FIFO_DEPTH-1:0]        data_out_reset_address$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire                            data_in_clock,     $/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire                            data_in_enable,$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire                            data_in_end,$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire                            data_in_start,$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire                            data_out_clock,     $/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire                            data_out_enable,$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire                            error,$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    input   wire                            retry,$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    output  wire                            data_out_end,$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    output  wire                            data_out_start,$/;"	p
+wire	rtl/mac/mac_fifo/mac_fifo.v	/^    output  wire    [DATA_OUT_WIDTH-1:0]    data_out,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire        carrier_sense,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire        clock,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire        collision,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire        fifo_data_end,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire        fifo_data_start,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire        mode,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire        reset,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire [6:0]  fifo_count,$/;"	p
+wire	rtl/mac/tx/tx_sm.v	/^    input   wire [7:0]  fifo_data,$/;"	p
+wire	rtl/mac/utilities/monitor.v	/^    input  wire               clock$/;"	p
+wire	rtl/mac/utilities/utilities.v	/^    input  wire                  clock$/;"	p
+wire	rtl/mac/utilities/utilities.v	/^    input  wire [IN_WIDTH-1:0]   data_in,$/;"	p
