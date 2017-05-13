@@ -1,0 +1,120 @@
+$date
+	Mon May  8 23:24:47 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module arbiter_tb $end
+$var wire 4 ! grant [3:0] $end
+$var reg 1 " clock $end
+$var reg 4 # request [3:0] $end
+$var reg 1 $ reset $end
+$scope module rr $end
+$var wire 1 " clock $end
+$var wire 4 % request [3:0] $end
+$var wire 1 $ reset $end
+$var wire 4 & grant [3:0] $end
+$var reg 2 ' counter [1:0] $end
+$scope module U_priority_encoder_0 $end
+$var wire 1 ( enable $end
+$var wire 4 ) in [3:0] $end
+$var reg 4 * out [3:0] $end
+$var integer 32 + i [31:0] $end
+$upscope $end
+$scope module U_priority_encoder_1 $end
+$var wire 1 , enable $end
+$var wire 4 - in [3:0] $end
+$var reg 4 . out [3:0] $end
+$var integer 32 / i [31:0] $end
+$upscope $end
+$scope module U_priority_encoder_2 $end
+$var wire 1 0 enable $end
+$var wire 4 1 in [3:0] $end
+$var reg 4 2 out [3:0] $end
+$var integer 32 3 i [31:0] $end
+$upscope $end
+$scope module U_priority_encoder_3 $end
+$var wire 1 4 enable $end
+$var wire 4 5 in [3:0] $end
+$var reg 4 6 out [3:0] $end
+$var integer 32 7 i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 7
+b0 6
+b0 5
+x4
+bx 3
+b0 2
+b0 1
+x0
+bx /
+b0 .
+b0 -
+x,
+bx +
+b0 *
+b0 )
+x(
+bx '
+bx &
+b0 %
+1$
+b0 #
+0"
+bx !
+$end
+#5
+b100 +
+1(
+0,
+00
+04
+b0 '
+1"
+#10
+0"
+#15
+1"
+#20
+bx1x !
+bx1x &
+b10 *
+b100 +
+b1010 )
+b101 -
+b1010 1
+b101 5
+0"
+b101 #
+b101 %
+0$
+#25
+b0 *
+b1 .
+b100 /
+0(
+1,
+b1 '
+1"
+#30
+0"
+#35
+bx !
+bx &
+b0 .
+b10 2
+b100 3
+0,
+10
+b10 '
+1"
+#40
+0"
